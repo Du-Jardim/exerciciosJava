@@ -6,9 +6,9 @@ public class MetodoComParametros {
   }
 
   public static String mostrarMensagem(){
-    Scanner  = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
     System.out.println("Digite a mensagem: ");
-    return v.nextLine();
+    return scan.nextLine();
   }
 
 }
